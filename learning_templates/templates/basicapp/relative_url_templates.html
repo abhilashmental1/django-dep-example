@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative url templates</h1>
+    <a href="{% url 'basicapp:other' %}">The Other Page</a> # here basicapp is the variable declared and other is the
+                                                              "name" in the view render function
+    <a href="{% url 'admin:index' %}">Link to admin</a> ###this is the link to the admin page
+    <a href="{% url 'index' %}">Link to the index page</a> ## we don't have to give any variable name
+
+
+  </body>
+</html>
